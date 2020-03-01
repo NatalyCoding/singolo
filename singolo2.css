@@ -1,0 +1,111 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #666d89;
+}
+
+.container {
+    max-width: 1020px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-light {
+    background: #f2f2f2;
+}
+
+.section-dark {
+    background: #2d303a;
+}
+
+h2.section-header {
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.text-big {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.text-small {
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.portfolio-section,
+.about-us-section {
+    padding: 40px 0;
+}
+
+.nav-filter-list {
+    margin: 20px 0;
+    height: 24px;
+    width: 360px;
+}
+
+.nav-filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.filter-options-li {
+    display: inline-block;
+}
+
+.filter-options-li .options-button {
+    border-radius: 5px;
+    background-color: #323746;
+    border: 2px solid #767e9e;
+    transition-duration: 0.4s;
+}
+
+.filter-options-li .options-button .active {
+    border-radius: 5px;
+    background-color: #323746;
+    border: 2px solid #ffffff;
+    transition-duration: 0.4s;
+}
+
+.filter-options-li .options-button:hover {
+    border: 2px solid #ffffff;
+}
+
+.filter-options-li span {
+    font-size: 12px;
+    color: #767e9e;
+    transition-duration: 0.4s;
+    padding: 10px;
+}
+
+.filter-options-li span:hover {
+    color: #ffffff;
+}
+
+.picture-block .row {
+    padding-bottom: 20px;
+}
+
+.about-us-description {
+    margin-bottom: 20px;
+}
+
+.team-member-li {
+    display: inline-block;
+}
