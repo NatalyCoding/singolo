@@ -1,0 +1,33 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #666d89;
+}
+
+.container {
+    max-width: 1020px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-red {
+    background: #f06c64;
+    color: #ffffff;
+}
+
+.footer-dark {
+    background: #2d303a;
+}
