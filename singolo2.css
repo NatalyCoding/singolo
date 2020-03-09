@@ -48,11 +48,11 @@ h2.section-header {
 
 .portfolio-section,
 .about-us-section {
-    padding: 40px 0;
+    padding: 42px 0 56px;
 }
 
 .nav-filter-list {
-    margin: 20px 0;
+    margin: 8px 0 16px;
     height: 24px;
     width: 360px;
 }
@@ -74,6 +74,8 @@ h2.section-header {
     background-color: #323746;
     border: 2px solid #767e9e;
     transition-duration: 0.4s;
+    margin-right: 6px;
+    padding: 2px 5px;
 }
 
 .filter-options-li .options-button .active {
@@ -91,15 +93,27 @@ h2.section-header {
     font-size: 12px;
     color: #767e9e;
     transition-duration: 0.4s;
-    padding: 10px;
 }
 
 .filter-options-li span:hover {
     color: #ffffff;
 }
 
-.picture-block .row {
-    padding-bottom: 20px;
+.picture-block-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.picture-block-list li {
+    list-style: none;
+    margin: 0 0 15px 0;
+}
+
+.portfolio-img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .about-us-description {
