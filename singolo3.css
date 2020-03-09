@@ -49,14 +49,8 @@ body {
 
 .section-red {
     background: #f06c64;
-    color: #ffffff;
+    color: #f0d8d9;
     border-bottom: 6px solid #ea676b;
-}
-
-.footer-dark {
-    background: #2d303a;
-    color: #656d88;
-    padding: 22px 0 19px;
 }
 
 h2.section-header {
@@ -75,14 +69,14 @@ h2.section-header {
 }
 
 .form-wrap {
-    margin-top: 44px;
+    margin: 44px 0 10px 0;
 }
 
 .form-input {
-    width: 620px;
+    width: 600px;
     height: 38px;
     background-color: #d6564f;
-    color: #ffffff;
+    color: #f0d8d9;
     border: none;
     border-radius: 5px;
     padding-left: 15px;
@@ -103,8 +97,49 @@ h2.section-header {
     color: #f48c8f;
 }
 
+.form-invalid:invalid {
+    border: 1px solid rgba(202, 57, 57, 0.5);
+}
+
 .form-button {
     display: block;
     margin-top: 5px;
     background-color: #d6564f;
+    color: #f0d8d9;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-button:hover {
+    cursor: pointer;
+    background-color: #f0d8d9;
+    color: #d6564f;
+}
+
+.contact-information {
+    align-self: start;
+    margin-top: 38px;
+}
+
+.contact-information-list {
+    list-style: none;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.contact-information-list a {
+    color: #f0d8d9;
+    text-decoration: none;
+}
+
+.footer-dark {
+    background: #2d303a;
+    color: #656d88;
+    padding: 22px 0 19px;
+    font-size: 12px;
+}
+
+.footer-socials-li {
+    display: inline-block;
 }
